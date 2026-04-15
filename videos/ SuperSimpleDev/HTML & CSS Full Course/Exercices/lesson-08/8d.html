@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>Sign up Form</title>
+
+    <style>
+
+
+      body {
+        height: 100vh;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: Arial;
+      }
+      
+      input {
+        border: 1px solid; 
+        border-color: #696969;
+        border-radius: 10px;
+      }
+
+      .name-row {
+      display: flex;
+      gap: 4px;
+      }
+
+      .input-text-email, .input-text-first-name, .input-text-last-name {
+        font-size: 14px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 10px;
+      }
+
+      .input-text-first-name, .input-text-last-name{
+        width: 136px;
+      }
+
+      .input-text-email {
+        width: 292px;
+      }
+
+      .sign-up-button {
+        font-weight: bold;
+        font-size: 20px;
+        width: 305px;
+        height: 50px;
+        background-color: #3975e9;
+        border: none;
+        border-radius: 10px;
+        color: white;
+      }
+
+      .input-text-email, .sign-up-button {
+        display: block;
+        margin-top: 10px;
+      }
+
+      
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="name-row">
+      <input type="text" class="input-text-first-name" placeholder="First Name">
+      <input type="text" class="input-text-last-name" placeholder="Last Name"> 
+  </div>
+    
+    <input type="text" class="input-text-email" placeholder="Email">
+
+    <button class="sign-up-button">Sign Up</button>
+
+  </body>
+
+</html>
