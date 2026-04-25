@@ -16,6 +16,10 @@ nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   margin-bottom: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -60,4 +64,9 @@ nav {
   border: none;
   cursor: pointer;
   transition: 0.3s;
+}
+
+btn:hover {
+  background: #0aa9f3;
+  box-shadow: 0 0 25px #0aa9f3;
 }
